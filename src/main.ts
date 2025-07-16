@@ -11,7 +11,7 @@ async function bootstrap() {
       'https://incandescent-pasca-a27709.netlify.app'               
     ],
     credentials: true,
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS'
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   });
 
   app.useGlobalPipes(
